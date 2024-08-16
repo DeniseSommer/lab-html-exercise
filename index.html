@@ -31,21 +31,23 @@
 
       <div>
         <img class="logo" src="./images/npm-logo.png" alt="NPM Logo" />
-        <img
-          class="magnifier"
-          src="./images/magnifying-glass.png"
-          alt="magnifier"
-        />
-        <label for="site-search"></label>
-        <input
-          type="search"
-          id="site-search"
-          name="q"
-          placeholder="Search packages"
-        />
-        <button>Search</button>
-        <a href="#join">Join</a>
-        <a href="#logIn">Log In</a>
+        <div id="searchbar">
+          <img
+            class="magnifier"
+            src="./images/magnifying-glass.png"
+            alt="magnifier"
+          />
+          <input
+            type="text"
+            placeholder="Search packages"
+            class="search-input"
+          />
+        </div>
+        <button id="search-btn">Search</button>
+        <div id="combined-buttons">
+          <a id="join-btn">Join</a>
+          <a id="logIn-btn">Log In</a>
+        </div>
       </div>
     </header>
     <main>
@@ -115,8 +117,3 @@
     <footer></footer>
   </body>
 </html>
-
-<!--
- 
-npm audit 
-Create an Org-->

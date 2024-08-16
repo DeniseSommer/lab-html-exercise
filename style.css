@@ -33,6 +33,56 @@ nav a {
   margin-right: 1rem;
 }
 
+.logo {
+  width: 70px;
+}
+
+.magnifier {
+  width: 20px;
+}
+
+#searchbar {
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 900px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 50px;
+}
+
+#search-btn {
+  background-color: #fb3b49;
+  border-color: #fb3b49;
+  width: 70px;
+  height: 50px;
+  color: white;
+}
+
+#join-btn {
+  background-color: white;
+  color: black;
+  border: solid gray 0.5px;
+  width: 50px;
+  padding: 5px 15px;
+}
+
+#logIn-btn {
+  background-color: white;
+  color: black;
+  width: 50px;
+  height: 30px;
+  padding: 5px 15px;
+}
+
+#combined-buttons {
+  padding: 15px;
+}
+
+input {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+
 #section-1 {
   display: flex;
   justify-content: center;
